@@ -3,15 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>TOWN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="title">
         <h1>Ayvan Town</h1>
     </div>
+
     <div class="main-content">
-        <img src="image/mcdo.png" alt="mcdo" width="350px" height="200px" class="mcdo">
+        <img src="image/bg.png" alt="mcdo" class="bg">
+        
+        <div class="content">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#mcdoModal">
+                <img src="image/mcdo.png" alt="mcdo" width="350px" height="200px">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#sevenModal">
+                <img src="image/711.png" alt="711" width="350px" height="200px" class="seven">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#houseModal" >
+                <img src="image/house.png" alt="house" width="350px" height="190px" class="house">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#playgroundModal">
+                <img src="image/playground.png" alt="playground" width="350px" height="200px" class="playground">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#churchModal">
+                <img src="image/church.png" alt="church" width="350px" height="300px" class="church">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#townhallModal">
+                <img src="image/townhall.png" alt="townhall" width="350px" height="300px" class="hall">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#schoolModal">
+                <img src="image/school.png" alt="school" width="400px" height="360px" class="school">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#marketModal">
+                <img src="image/market.png" alt="market" width="350px" height="270px" class="market">
+            </a>
+        </div>
     </div>
+
+    <div class="modal fade" id="mcdoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">McDonald's</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <h1>McDonald's</h1>
+                    <p>McDonald's is a global fast-food chain, famous for its burgers, fries, and breakfast items. Founded in 1940, it now has over 39,000 locations worldwide. Known for consistency and innovation, McDonald's is a leader in the fast-food industry.</p>
+                    <img src="image/mcdo.png" alt="McDonald's" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7-Eleven Modal -->
+    <div class="modal fade" id="sevenModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">7-Eleven</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <h1>711</h1>
+                    <p>7-Eleven is a convenience store chain, known for its 24/7 availability. Founded in 1927, it offers a wide range of snacks, drinks, and essential items. With over 70,000 stores worldwide, 7-Eleven is a go-to for quick, convenient shopping.</p>
+                    <img src="image/711.png" alt="7-Eleven" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- House Modal -->
+    <div class="modal fade" id="houseModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">House</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <h1>House</h1>
+                    <p>A house is a place where people live, offering shelter and comfort. It typically includes rooms like bedrooms, a living room, kitchen, and bathroom. Houses can vary in size, style, and design, but they all provide a space for relaxation, safety, and personal activities.</p>
+                    <img src="image/house.png" alt="House" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Playground Modal -->
+    <div class="modal fade" id="playgroundModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Playground</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <h1>Playground</h1>
+                    <p>A playground is an outdoor area designed for children to play and have fun. It usually features equipment like swings, slides, climbing structures, and sandboxes. Playgrounds encourage physical activity, social interaction, and imagination, making them important for children's development.</p>
+                    <img src="image/playground.png" alt="Playground" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Church Modal -->
+    <div class="modal fade" id="churchModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Church</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <h1>Church</h1>
+                    <p>
+                        A church is a building used for Christian worship and religious activities. It serves as a place for prayer, reflection, and community gatherings. Churches often feature religious symbols, altars, and seating for congregants, and they play an important role in spiritual and social life.</p>
+                    <img src="image/church.png" alt="Church" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Town Hall Modal -->
+    <div class="modal fade" id="townhallModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Town Hall</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <h1>Town Hall</h1>
+                    <p>A town hall is a public building where local government meetings and community events are held. It serves as a center for civic activities, offering a space for citizens to meet with officials, discuss issues, and engage in local decision-making. Town halls are important for fostering communication within a community.</p>
+                    <img src="image/townhall.png" alt="Town Hall" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- School Modal -->
+    <div class="modal fade" id="schoolModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">School</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <h1>School</h1>
+                    <p>
+                        A school is an institution where students receive education and learn various subjects, such as math, science, language, and arts. Schools provide a structured environment for academic growth, social development, and skill-building, preparing students for future careers and life challenges.</p>
+                    <img src="image/school.png" alt="School" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Market Modal -->
+    <div class="modal fade" id="marketModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Wet Market</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <h1>Wet Market</h1>
+                    <p>A wet market is a type of marketplace that sells fresh food, including meat, seafood, vegetables, and fruits. The term "wet" refers to the presence of water used for cleaning products and maintaining freshness. Wet markets are common in many parts of Asia and offer locally sourced, often affordable food items.</p>
+                    <img src="image/market.png" alt="Market" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
